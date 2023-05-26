@@ -1,3 +1,5 @@
+// custom api validation error handler
+
 const notFound = (req, res, next) => {
     const error = new Error(`Not Found - ${req.originalUrl}`);
     // set error status to 404
